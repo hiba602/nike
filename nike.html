@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="Nike.css">
+<title>nike</title>
+</head>
+<body>
+<!--header section start-->
+<section id="header">
+<a href="#" class="logo"><img src="img/nike-logo.png" alt="nike" width="60px"></a>
+<div>
+<ul id="navbar">
+<li><a href="#hero" class="active">home</a></li>
+<li><a href="#products1">products</a></li>
+<li><a href="#featured">featured</a></li>
+<li><a href="#review">review</a></li>
+<li><a href="#contact">contact</a></li>
+<li id="cart-icon">
+<i class="fas fa-shopping-cart" id="lg-bag"></i>
+<span id="cart-count">0</span>
+</li>
+<div id="cart-popup">
+<ul id="cart-items">        
+<!-- المنتجات المضافة ستظهر هنا -->
+</ul>
+<div id="total-price">Total: $0.00</div>
+<button id="checkout-btn">checkout</button>
+</div>
+<div id="payment-modal" class="hidden">
+<div class="modal-content">
+<span id="close-modal" class="close">&times;</span>
+<h3>Payment Details</h3>
+<form id="payment-form">
+<label for="card-name">Cardholder Name</label>
+<input type="text" id="card-name" placeholder="John Doe" required>
+<label for="card-number">Card Number</label>
+<input type="text" id="card-number" placeholder="1234 5678 9012 3456" maxlength="16" required>      
+<label for="expiry-date">Expiry Date</label>
+<input type="text" id="expiry-date" placeholder="MM/YY" maxlength="5" required>      
+<label for="cvv">CVV</label>
+<input type="text" id="cvv" placeholder="123" maxlength="3" required>        
+<button type="submit">Pay Now</button>
+</form>
+</div>
+</div>
+<a href="#" id="close"><i class="fa fa-times"></i></a>
+<a href="https://www.google.com/maps/search/Nike+Store+Near+Me" id="find-store"><i class="fas fa-map-marker-alt"></i></a>
+</ul>
+</div>
+<div id="mobile">
+<i id="bar" class="fas fa-outdent"></i>
+<a href="https://www.google.com/maps/search/Nike+Store+Near+Me"><i class="fas fa-map-marker-alt"></i></a>
+</div>
+</section>
+<!--header section end-->
+<!--feature section start -->
+<!--hero-->
+<section id="hero">
+<h4>Nike</h4>
+<h1>UNLEASH YOUR POTENTIAL</h1>
+<p>Push beyond your limits and redefine what's possible. Every step, every move, every victory starts here.</p>
+<button>explore-more</button>
+</section>
+<!--box-->
+<section id="box">
+<!--box1-->
+<div class="fe-box">
+<img src="img/f1.png" alt="">
+<h5>Free Shipping</h5>
+</div>
+<!--box2-->
+<div class="fe-box">
+<img src="img/f2.png" alt="">
+<h5>Online Order</h5>
+</div>
+<!--box3-->
+<div class="fe-box">
+<img src="img/f3.png" alt="">
+<h5>Save Money</h5>
+</div>
+<!--box4-->
+<div class="fe-box">
+<img src="img/f4.png" alt="">
+<h5>Promations</h5>
+</div>
+<!--box5-->
+<div class="fe-box">
+<img src="img/f5.png" alt="">
+<h5>Happy Sell</h5>
+</div>
+<!--box6-->
+<div class="fe-box">
+<img src="img/f6.png" alt="">
+<h5>F24/7 Support</h5>
+</div>
+</section>
+<!--products-->
+<section id="products1" class="section-p1">
+<h1>Men's Shoes & Sneakers</h1>
+<div class="pro-container">
+<div class="pro">
+<img src="img/AIR101.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR101.png" alt="Thumbnail 1" data-full="img/AIR101.png">
+<img class="thumbnail" src="img/AIR103.png" alt="Thumbnail 2" data-full="img/AIR103.png">
+<img class="thumbnail" src="img/AIR104.png" alt="Thumbnail 3" data-full="img/AIR104.png">
+<img class="thumbnail" src="img/AIR102.png" alt="Thumbnail 3" data-full="img/AIR102.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+<h4>$725</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR12.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR12.png" alt="Thumbnail 1" data-full="img/AIR12.png">
+<img class="thumbnail" src="img/AIR107.png" alt="Thumbnail 2" data-full="img/AIR107.png">
+<img class="thumbnail" src="img/AIR108.png" alt="Thumbnail 3" data-full="img/AIR108.png">
+<img class="thumbnail" src="img/AIR109.png" alt="Thumbnail 3" data-full="img/AIR109.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+<h4>$725</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR2.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR2.png" alt="Thumbnail 1" data-full="img/AIR2.png">
+<img class="thumbnail" src="img/AIR106.png" alt="Thumbnail 2" data-full="img/AIR106.png">
+<img class="thumbnail" src="img/AIR105.png" alt="Thumbnail 3" data-full="img/AIR105.png">
+<img class="thumbnail" src="img/AIR13.png" alt="Thumbnail 3" data-full="img/AIR13.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+<h4>$729</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR8.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR8.png" alt="Thumbnail 1" data-full="img/AIR8.png">
+<img class="thumbnail" src="img/AIR110.png" alt="Thumbnail 2" data-full="img/AIR110.png">
+<img class="thumbnail" src="img/AIR111.png" alt="Thumbnail 3" data-full="img/AIR111.png">
+<img class="thumbnail" src="img/AIR112.png" alt="Thumbnail 3" data-full="img/AIR112.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+<h4>$876</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR116.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR116.png" alt="Thumbnail 1" data-full="img/AIR116.png">
+<img class="thumbnail" src="img/AIR113.png" alt="Thumbnail 2" data-full="img/AIR113.png">
+<img class="thumbnail" src="img/AIR118.png" alt="Thumbnail 3" data-full="img/AIR118.png">
+<img class="thumbnail" src="img/AIR114.png" alt="Thumbnail 3" data-full="img/AIR114.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$543</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR115.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR115.png" alt="Thumbnail 1" data-full="img/AIR115.png">
+<img class="thumbnail" src="img/AIR119.png" alt="Thumbnail 2" data-full="img/AIR119.png">
+<img class="thumbnail" src="img/AIR120.png" alt="Thumbnail 3" data-full="img/AIR120.png">
+<img class="thumbnail" src="img/AIR121.png" alt="Thumbnail 3" data-full="img/AIR121.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$786</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR122.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR122.png" alt="Thumbnail 1" data-full="img/AIR122.png">
+<img class="thumbnail" src="img/AIR123.png" alt="Thumbnail 2" data-full="img/AIR123.png">
+<img class="thumbnail" src="img/AIR124.png" alt="Thumbnail 3" data-full="img/AIR124.png">
+<img class="thumbnail" src="img/AIR126.png" alt="Thumbnail 3" data-full="img/AIR126.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$987</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+<div class="pro">
+<img src="img/AIR125.png" class="main-image">
+<div class="thumbnail-container">
+<img class="thumbnail" src="img/AIR125.png" alt="Thumbnail 1" data-full="img/AIR125.png">
+<img class="thumbnail" src="img/AIR127.png" alt="Thumbnail 2" data-full="img/AIR127.png">
+<img class="thumbnail" src="img/AIR128.png" alt="Thumbnail 3" data-full="img/AIR128.png">
+<img class="thumbnail" src="img/AIR129.png" alt="Thumbnail 3" data-full="img/AIR129.png">
+</div>
+<div class="des">
+<span>nike</span>
+<h5>Men's Shoes</h5>
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+</div>
+<h4>$876</h4>
+</div>
+<a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+</div>
+</div>
+</section>
+<!--banner-->
+<section id="banner" class="section-p1">
+<!--banner-box1-->
+<div class="banner-box">
+<h4>limited offer</h4>
+<h2>upto <span>30% off</span></h2>
+<a href="#products1">
+<button>shop-now</button>
+</a>
+</div>
+<!--banner-box1-->
+<div class="banner-box banner-box1">
+<h4>limited offer</h4>
+<h2>upto <span>30% off</span></h2>
+<a href="#featured">
+<button>shop-now</button>
+</a>
+</div>
+</section>
+<!--featured-->
+<section id="featured" class="section-p1">
+<h1>shop by classics</h1>
+<div id="fe-box1" class="slider-container">
+<!--box1-->
+<div class="box active">
+<img src="img/FE1.jpg" alt="">
+<h5>air max</h5>
+<h4>$256</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box2-->
+<div class="box">
+<img src="img/FE4.jpg" alt="">
+<h5>air max</h5>
+<h4>$879</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box3-->
+<div class="box">
+<img src="img/FE2.png" alt="">
+<h5>air max</h5>
+<h4>$675</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box4-->
+<div class="box">
+<img src="img/FE3.png" alt="">
+<h5>air max</h5>
+<h4>$252</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box5-->
+<div class="box">
+<img src="img/FE5.jpg" alt="">
+<h5>air max</h5>
+<h4>$987</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box6-->
+<div class="box">
+<img src="img/FE6.jpg" alt="">
+<h5>air max</h5>
+<h4>$1200</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box7-->
+<div class="box">
+<img src="img/FE7.png" alt="">
+<h5>air max</h5>
+<h4>$252</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box8-->
+<div class="box">
+<img src="img/FE8.png" alt="">
+<h5>air max</h5>
+<h4>$897</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box9-->
+<div class="box">
+<img src="img/FE9.png" alt="">
+<h5>air max</h5>
+<h4>$780</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box10-->
+<div class="box">
+<img src="img/FE10.jpg" alt="">
+<h5>air max</h5>
+<h4>$900</h4>
+<button class="cart">add to cart</button>
+</div>
+<!--box11-->
+<div class="box">
+<img src="img/FE11.png" alt="">
+<h5>air max</h5>
+<h4>$300</h4>
+<button class="cart">add to cart</button>
+</div>
+<div id="cont-next" onclick="next()" class="fas fa-angle-right"></div>
+<div id="cont-prev" onclick="prev()" class="fas fa-angle-left"></div>
+</div>
+</section>
+<!--review-->
+<section id="review" class="section-p1">
+<h1><span>client's</span> revriew</h1>
+<div id="rev-box">
+<!--revbox1-->
+<div class="box">
+<img src="img/1.png" alt="">
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="	far fa-star"></i>
+</div>
+<h4>alex jaksen</h4>
+<p>I recently purchased the Nike Air Max and couldn't be happier. The shoes are not only stylish but also incredibly comfortable for long hours of wear.also especially during workouts. Highly recommended for anyone looking for a mix of performance and style!</p>
+</div>
+<!--revbox2-->
+<div class="box">
+<img src="img/2.png" alt="">
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i></div>
+<h4>john matris</h4>
+<p>I’ve been using the Nike Revolution running shoes for a few weeks now, and they’re fantastic. They fit perfectly and provide great support during my runs. The material feels durable, and they look great too. Definitely worth the investment!"</p>
+</div>
+<!--revbox3-->
+<div class="box">
+<img src="img/3 (2).png" alt="">
+<div class="star">
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+</div>
+<h4>adele clark</h4>
+<p>I bought the Nike Dri-FIT hoodie, and it’s now my go-to for workouts and casual wear. The fabric feels super soft, they look great too. and it keeps me dry even during intense exercises.I’ll definitely be buying more Nike gear in the future!"</p>
+</div>
+</div>
+</section>
+<!--contact-->
+<section id="contact" class="section-p1">
+<h1>contact <span>us</span></h1>
+<div class="row">
+<form id="form">
+<h2>get in touch</h2>
+<div class="inputbox">
+<input type="full-name" placeholder="your name">
+<input type="email" placeholder="your email">
+</div>
+<div class="inputbox">
+<input type="tel" placeholder="your phone">
+<input type="text"placeholder="your subject">
+</div>
+<textarea placeholder="your message" cols="30" rows="6"></textarea>
+<input type="submit" value="send message" class="s-btn">
+</form>
+<div class="image">
+<img src="img/contact.jpg" alt="">
+</div>
+</div>
+</section>
+<!--feature section end -->
+<!--footer section start-->
+<section id="footer" class="section-p1">
+<div id="box-footer">
+<div class="box">
+<h3>about us</h3>
+<p>At <strong>NIKE</strong>, we combine innovation, style, and performance to inspire athletes and dreamers alike. Our high-quality athletic gear is designed to support your journey, wherever it takes you. Join us in celebrating the spirit of sport and achievement.</p>
+</div>
+<div class="box">
+<h3>our service</h3>
+<ul>
+<a href=""><li>Pricing</li></a>
+<a href=""><li>Discount</li></a>
+<a href=""><li>Refund Policy</li></a>
+<a href=""><li>Shipping Mode</li></a>
+<a href=""><li>Promations</li></a>
+</ul>
+</div>
+<div class="box">
+<h3>quick links</h3>
+<ul>
+<a href="#hero"><li>home</li></a>
+<a href="#products1"><li>products</li></a>
+<a href="#featured"><li>featured</li></a>
+<a href="#review"><li>review</li></a>
+<a href="#contact"><li>contact</li></a>
+</ul>
+</div>
+<div class="box">
+<h3>social links</h3>
+<ul>
+<li><a href="#"><i class="fab fa-facebook"> facebook</i></a></li>
+<li><a href="#"><i class="fab fa-twitter"> twitter</i></a></li>
+<li><a href="#"><i class="fab fa-instagram"> instagram</i></a></li>
+<li><a href="#"><i class="fab fa-linkedin"> linkedin</i></a></li>
+<li><a href="#"><i class="fab fa-github"> git-hub</i></a></li>
+</ul>
+</div>
+</div>
+</section>
+<div class="credit">
+&copy; copyright @ 2024 by HIBA
+</div>
+<!--footer section end-->
+<script src="nike.js"></script>
+</body>
+</html>
